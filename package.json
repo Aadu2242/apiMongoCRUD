@@ -1,0 +1,28 @@
+{
+  "name": "apimongocrud",
+  "version": "1.0.0",
+  "description": "apiMongoCRUD",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aadu2242/apiMongoCRUD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aadu2242/apiMongoCRUD/issues"
+  },
+  "homepage": "https://github.com/Aadu2242/apiMongoCRUD#readme"
+}
