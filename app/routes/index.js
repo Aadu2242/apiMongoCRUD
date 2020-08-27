@@ -4,12 +4,14 @@ const awsRoutes = require('./aws_notes');
 
 module.exports = function(app, db) {
 	noteRoutes(app,db);
-}
-
-module.exports = function(app, db) {
 	findRoutes(app,db);
-}
-
-module.exports = function(app, db) {
 	awsRoutes(app,db);
 }
+
+//module.exports = function(app, db) {
+//	findRoutes(app,db);
+//}
+//
+//module.exports = function(app, db) {
+//	awsRoutes(app,db);
+//}
